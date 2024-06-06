@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinero Fácil - Jorge de Ovando</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 2em;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dinero Fácil</h1>
+        <p>Descubre la imagen oculta y gana dinero</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#contest">Concurso</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Sobre Nosotros</h2>
+            <p>Bienvenido a Dinero Fácil, el sitio web donde puedes ganar dinero identificando imágenes misteriosas. Cada semana publicamos una imagen difícil de identificar y la primera persona que adivine correctamente lo que se muestra, gana el concurso. ¡Participa y prueba tu suerte!</p>
+        </section>
+
+        <section id="contest" class="section">
+            <h2>Concurso Actual</h2>
+            <p>A continuación se muestra la imagen del concurso de esta semana. Envía tu respuesta a través del formulario de contacto y si eres el primero en adivinar correctamente, ¡ganarás!</p>
+            <img src="tu-imagen.jpg" alt="Imagen del Concurso" style="width:100%; max-width:600px; display:block; margin:auto;">
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>Para enviar tu respuesta o si tienes alguna pregunta, completa el siguiente formulario:</p>
+            <form>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Dinero Fácil. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
